@@ -9,7 +9,7 @@ class App(tk.Tk):
         self.resizable(False, False)
         self.canvas = tk.Canvas(self, width=500, height=300, bg="black")
         self.canvas.pack()
-        self.square = self.canvas.create_rectangle(0, 0, 50, 50, fill="white")
+        self.square = self.canvas.create_rectangle(0, 0, 50, 50, fill="blue")
         self.x = 0
         self.y = 0
         self.dx = 1

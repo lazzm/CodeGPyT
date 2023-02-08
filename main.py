@@ -37,7 +37,9 @@ except Exception as e:
 print("Code:\n")
 print(code + "\n")
 
-file = open("generated_code/" + str(datetime.datetime.now()) + ".py", "w")
+# save the file to the generated_code folder and name the file with the current date and time eg: 2021-05-01-12:00:00.py
+
+file = open("generated_code/" + str(datetime.datetime.now()).replace(" ", "-").replace(":", "-").replace(".", "-") + ".py", "w")
 file.write(code)
 file.close()
 
