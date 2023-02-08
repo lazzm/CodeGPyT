@@ -1,0 +1,7 @@
+Show a tkinter window that is 500x300 and not resizable.
+It should be black background and show a square.
+The square should move and bounce off the edges. 
+A bit like how the DVD logo does in its famous animation.
+When the square hits the edge, it changes colour to one of these colours, but will be different from the current colour.
+Blue, Red, Green, Yellow, White
+It should move quite slowly.
